@@ -1,0 +1,57 @@
+Request method:	GET
+Request URI:	http://1k-dev.1kosmos.net/healthz
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Cookie=INGRESSCOOKIE=72fa115a545793355dbcaed45a625331; JSESSIONID=2DEFD6C06ECA544E0BB5CBA2DC8FA40B; _state=value=%7B%22states%22%3A%5B%7B%22moduleid%22%3A%225f3d8d0cd866fa61019cf969.ad%22%2C%22status%22%3Afalse%2C%22tries%22%3A0%7D%5D%2C%22service%22%3A%22default%22%2C%22currentLoginState%22%3A%22LOGGING_IN%22%2C%22user%22%3Anull%7D
+				Accept-Encoding=gzip, deflate, br
+				Connection=keep-alive
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Server: nginx/1.19.0
+Date: Thu, 20 Aug 2020 18:16:42 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 118
+Set-Cookie: INGRESSCOOKIE=bfb146a7566c37870d649056c2832454; Path=/; HttpOnly
+Connection: keep-alive
+
+{
+    "status": "all services operational",
+    "code": "200",
+    "version": "79652d0360340d7428208fc3af92f7ca40a5f359.1597937606563r"
+}
+Request method:	GET
+Request URI:	https://1k-dev.1kosmos.net/api/v3/rest/default/eula?tenant=1kosmos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Cookie=INGRESSCOOKIE=72fa115a545793355dbcaed45a625331; JSESSIONID=2DEFD6C06ECA544E0BB5CBA2DC8FA40B; _state=value=%7B%22states%22%3A%5B%7B%22moduleid%22%3A%225f3d8d0cd866fa61019cf969.ad%22%2C%22status%22%3Afalse%2C%22tries%22%3A0%7D%5D%2C%22service%22%3A%22default%22%2C%22currentLoginState%22%3A%22LOGGING_IN%22%2C%22user%22%3Anull%7D
+				Accept-Encoding=gzip, deflate, br
+				Connection=keep-alive
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Server: nginx/1.19.0
+Date: Thu, 20 Aug 2020 18:16:44 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: INGRESSCOOKIE=fe5a4c974c4b5c198e90a2184c7046f2; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Content-Encoding: gzip
+
+{
+    "eula_b64": "c29tZSBjb250ZW50"
+}
